@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+@font-face {
+  src: url("../fonts/Nunito-Light.ttf");
+  font-family: "Nunito";
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  max-width: 1280px;
+  width: 100%;
+}
+
+.header {
+  background-color: #00bfff;
+  position: relative;
+  width: 100%;
+  padding: 0 0.1%;
+  height: 8vh;
+}
+
+.header img {
+  cursor: pointer;
+}
+
+.section-1 {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 15vw;
+  padding: 90px 2%;
+}
+
+.container-section {
+  text-align: center;
+}
+
+.container-single {
+  height: 450px;
+  width: 100%;
+  float: left;
+  max-width: 800px;
+  padding: 30px;
+  margin-left: 3%;
+  color: rgb(89, 96, 128);
+  background-image: url("../images/svg/captura.svg");
+  background-color: #464646;
+  border-radius: 10px;
+  transform: translateY(-20px);
+}
+
+.container-single h2 {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  transform: translateX(-25px);
+  font-weight: bold;
+}
+
+.container-single img {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.especie-text p {
+  color: #fff;
+  font-size: clamp(1.75em, +1em + 3vw, 2.5em);
+}
+
+@media screen and (max-width: 1024px) {
+  .section-1 {
+    transform: translateX(-40px);
+    overflow-x: hidden;
+  }
+
+  .container-single {
+    display: inline-block;
+    height: 440px;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 4%;
+    margin-top: 15px;
+  }
+
+  .especie-text {
+    transform: translateY(-20px);
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-1 {
+    width: 100%;
+    max-width: 430px;
+    overflow: hidden;
+  }
+
+  .container-single {
+    float: none;
+    display: inline-block;
+    height: 600px;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 30px;
+    transform: translateX(-20px);
+    box-sizing: border-box;
+  }
+
+  .container-single img {
+    margin-left: 15px;
+  }
+}

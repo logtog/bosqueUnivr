@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Projeto HAR</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+		<meta charset="utf-8" />
+	</head>
+
+	<body>
+
+	<!----------------------------------HEADER---------------------------------------->
+
+	<div class="header">
+		<div class="center">
+			<img src="images/UNIVR.png" width="145px" height="50px" onclick="main()" />
+		</div><!--center-->
+	</div><!--header-->
+
+	<!----------------------------------PRIMEIRO CONTAINER---------------------------------------->
+
+	<div class="container-banner">
+		<div class="center">
+			<div>
+				<div class="container-list">
+					<ul>
+						<li>Protótipo 1</li>
+						<li>Protótipo 2</li>
+						<li>Protótipo 3</li>
+					</ul>
+				</div><!--container-list-->
+
+			</div>
+		<div>
+			<div class="form">
+				<h2>Preencha o formulário abaixo.</h2>
+				<form action="formulario.php" method="POST">
+					<div class="input-container">
+						<span>Nome*</span>
+						<input type="text" name="nome" required />
+					</div><!--input-container-->
+
+					<div class="input-container">
+						<span>E-mail*</span>
+						<input type="text" name="email" required />
+					</div><!--input-container-->
+
+					<div class="input-container">
+						<span>Telefone*</span>
+						<input type="text" name="telefone" required />
+					</div><!--input-container-->
+
+					<p class="warning">*Campos obrigatórios</p>
+
+					<div class="input-submit-container">
+						<input type="submit" name="acao" value="Enviar">
+					</div><!--input-submit-container-->
+				</form>
+			</div><!--form-->
+		</div>
+
+			<div class="clear"></div>			
+		</div><!--center-->
+	</div><!--container-banner-->
+
+	<!----------------------------------SEGUNDO CONTAINER---------------------------------------->
+
+	<div class="container-2">
+		<div class="center">
+			<h2>Definição e objetivo</h2>
+			<p>Protótipos podem ser desenhos de telas em papel, wireframes, telas com dados reais ou até protótipos navegáveis, com possibilidade de interação e navegação bem parecidas com o produto final. A decisão de que tipo de protótipo escolher depende do que será avaliado em determinado contexto de uso.</p>
+		</div><!--center-->
+		<div class="arrow"></div>
+	</div><!--container-2-->
+
+	<!----------------------SECTION DAS FERRAMENTAS DE PROTOTIPAÇÃO-------------------------------->
+
+	<div class="section-1">
+		<div class="center">
+		<h2>Ferramentas de prototipação</h2>		
+			<div class="container-section">
+				<div class="container-single">
+					<div class="img1"><img src="images/svg/home.svg" width="80px" height="80px"/></div>
+						<div class="text-container-single">
+							<h2>Unisepe</h2>
+							<p>O projeto será realizado em parceria com a equipe responsável pelo Bosque Municipal Torazo Okamoto situado na cidade de Registro.</p>
+							<div class="button-p1">
+								<input type="submit" name="acao" value="Saiba mais" onclick="unisepe()">
+							</div><!--button-p1-->
+						</div><!--text-container-single-->					
+				</div><!--container--single-->
+
+
+				<div class="container-single">
+					<div class="img2"><img src="images/svg/qrcode-scan.svg" width="80px" height="80px"/></div>
+					<div class="text-container-single">
+						<h2>Espécies Nativas</h2>
+
+						<p>O passeio pelo Bosque ganhará novo atrativo. Placas informativas que serão fixadas terão um tipo de leitor de código de barras (QR Code).</p>
+
+						<div class="button-p2">
+							<input type="submit" name="acao" value="Saiba mais" onclick="qr()">
+						</div><!--button-p2-->
+					</div><!--text-container-single-->					
+				</div><!--container--single-->
+
+
+				<div class="container-single">
+					<div class="img3"><img src="images/svg/map.svg" width="80px" height="80px"/></div>
+					<div class="text-container-single">
+						<h2>Faça uma visita</h2>
+						<p>Símbolo da natureza abundante na região, o Bosque começou a ser revitalizado pela Prefeitura de Registro na primeira quinzena de abril.</p>
+						<div class="button-p3">
+							<input type="submit" name="acao" value="Saiba mais" onclick="map()">
+						</div><!--button-p3-->
+					</div><!--text-container-single-->					
+				</div><!--container--single-->
+
+				<div class="clear"></div>
+			</div><!--container-section-->
+		</div><!--center-->
+	</div><!--section-1-->
+
+	<!----------------------------------FOOTER---------------------------------------->
+
+	<div class="footer">
+		<a href="https://portal.unisepe.com.br/univr/">Bairro: Jardim das Palmeiras Rua: Oscar Yoshiaki Magário, nº 185. Registro - São Paulo</a>
+	</div><!--footer-->
+	</body>
+</html>

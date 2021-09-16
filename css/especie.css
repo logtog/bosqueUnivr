@@ -27,15 +27,22 @@ main {
 .origin-country img {
   text-align: center;
   height: max-content;
-  width: 40%;
+  width: 55%;
   border-radius: 10px;
   background: linear-gradient(rgba(0, 0, 0, 70%), rgba(0, 0, 0, 70%) 100%);
+  box-shadow: 1 5 4;
 
   display: block;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.336);
+}
+
+.origin-country img {
+  margin-top: 20px !important;
+  box-shadow: 0 0 0;
 }
 
 .title {
@@ -58,6 +65,13 @@ main {
   margin-right: 2rem;
 }
 
+.image-description,
+.font-info {
+  margin-top: 10px;
+  text-align: center;
+  font-size: small;
+}
+
 .main-image {
   height: 13rem;
   width: 15rem;
@@ -67,7 +81,7 @@ main {
 
 .origin-country img {
   border-radius: 5px;
-  margin-top: 2%;
+  margin-top: 1%;
   width: 500px;
 }
 
@@ -94,6 +108,10 @@ table {
   margin-right: 2rem;
   display: flex;
   background-color: #fff;
+}
+
+iframe {
+  margin-bottom: 15px;
 }
 
 td,

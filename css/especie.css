@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html,
@@ -11,15 +11,74 @@ body {
   background-color: #fff;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
-
-@font-face {
-  src: url("../fonts/Nunito-Light.ttf");
-  font-family: "Nunito";
-}
-
 .clear {
   clear: both;
+}
+
+main {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container,
+.origin-country img {
+  text-align: center;
+  height: max-content;
+  width: 40%;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 70%), rgba(0, 0, 0, 70%) 100%);
+
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  color: rgb(255, 255, 255);
+}
+
+.scientific-name {
+  color: rgb(156, 156, 156);
+  font-size: 14px;
+}
+
+.scientific-classification {
+  background-color: #00bfff;
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 3%;
+  padding: 5px 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.main-image {
+  height: 13rem;
+  width: 15rem;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+.origin-country img {
+  border-radius: 5px;
+  margin-top: 2%;
+  width: 500px;
+}
+
+.description {
+  color: rgb(219, 219, 219);
+  text-align: justify;
+  padding: 2rem;
+}
+
+.description b {
+  color: #fff;
 }
 
 .center {
@@ -27,27 +86,32 @@ body {
   width: 100%;
 }
 
+table {
+  border: 2px solid rgb(255, 255, 255);
+  width: 800;
+  padding: 5px 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  background-color: #fff;
+}
+
+td,
+.item {
+  width: 400px;
+  padding-left: 30px;
+}
+
 .header {
   background-color: #00bfff;
   position: relative;
   width: 100%;
   padding: 0 0.1%;
-  height: 8vh;
+  height: 50px;
 }
 
 .header img {
   cursor: pointer;
-}
-
-.section-1 {
-  width: 100%;
-  max-width: 800px;
-  margin-left: 15vw;
-  padding: 90px 2%;
-}
-
-.container-section {
-  text-align: center;
 }
 
 .container-single {
@@ -77,17 +141,7 @@ body {
   margin-bottom: 30px;
 }
 
-.especie-text p {
-  color: #fff;
-  font-size: clamp(1.75em, +1em + 3vw, 2.5em);
-}
-
 @media screen and (max-width: 1024px) {
-  .section-1 {
-    transform: translateX(-40px);
-    overflow-x: hidden;
-  }
-
   .container-single {
     display: inline-block;
     height: 440px;
@@ -96,20 +150,8 @@ body {
     margin-left: 4%;
     margin-top: 15px;
   }
-
-  .especie-text {
-    transform: translateY(-20px);
-    color: #fff;
-  }
 }
-
 @media screen and (max-width: 768px) {
-  .section-1 {
-    width: 100%;
-    max-width: 430px;
-    overflow: hidden;
-  }
-
   .container-single {
     float: none;
     display: inline-block;

@@ -1,188 +1,182 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family:'Nunito', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 
-html,body{
-	height: 100%;
-	background-color: #F5FFFA;
+html,
+body {
+  height: 100%;
+  background-color: #f5fffa;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
-@font-face{
-	src:url('../fonts/Nunito-Light.ttf');
-	font-family: 'Nunito';
+@font-face {
+  src: url("../fonts/Nunito-Light.ttf");
+  font-family: "Nunito";
 }
 
-.clear{
-	clear: both;
+.clear {
+  clear: both;
 }
 
-.center{
-	max-width: 1280px;
-	width: 100%;
+.center {
+  max-width: 1280px;
+  width: 100%;
 }
 
-.center-text .titulo h2{
-	transform: translateY(-20px);
-	margin-top: -350px;
-	color: #fff;
-	font-weight: bold;
-	font-size: 30px;
-
+.center-text .titulo h2 {
+  transform: translateY(-20px);
+  margin-top: -350px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.header{
-	background-color: #00bfff;
-	position: relative;
-	width: 100%;
-	padding:0 2%;
-	height: 8vh;
+.header {
+  background-color: #00bfff;
+  position: relative;
+  width: 100%;
+  padding: 0 2%;
+  height: 50px;
 }
 
-.header img{
-	margin: 0px;
-	cursor: pointer;
+.header img {
+  margin: 0px;
+  cursor: pointer;
 }
 
-.bg-onda{
-	overflow: hidden	;
+.section-1 {
+  margin-top: 170px;
+  padding: 90px 2%;
 }
 
-.section-1{
-	padding:90px 2%;
+.section-1 h2 {
+  text-align: center;
+  color: #462663;
+  font-weight: normal;
 }
 
-.section-1 h2{
-	text-align: center;
-	color: #462663;
-	font-weight: normal;
+.container-section {
+  margin-top: 100px;
+  text-align: center;
 }
 
-.container-section{
-	margin-top:100px;
-	text-align: center;
+.container-single {
+  height: 250px;
+  margin-top: 15px;
+  margin-right: 3%;
+  margin-bottom: 40px;
+  margin-left: 2%;
+  float: left;
+  width: 20%;
+  padding: 30px;
+  color: rgb(89, 96, 128);
+  background-image: url("../images/svg/captura.svg");
+  background-color: #fff;
+  border: 1px solid rgba(245, 246, 250, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.5s;
 }
 
-
-.container-single{
-	height: 250px;
-	margin-top: 15px;
-	margin-right: 3%;
-	margin-bottom: 40px;
-	margin-left: 2%;
-	float: left;
-	width: 20%;
-	padding:30px;
-	color: rgb(89, 96, 128);
-	background-image: url('../images/svg/captura.svg');
-	background-color: #fff;
-	border: 1px solid rgba(245, 246, 250, 0);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	transition-property: background-radius, background-color;
-	transition-duration: 0.8s;
+.container-single:hover {
+  color: #fff;
+  background-image: url(../images/svg/captura1.svg);
+  background-color: #87ceeb;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 
-.container-single:hover{
-	color: #fff;
-	background-image: url(../images/svg/captura1.svg);
-	background-color: #87CEEB;
-	border-radius: 30px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	cursor: pointer;
+.container-single h2 {
+  font-weight: bold;
 }
 
-
-.container-single h2{
-	font-weight: bold;
+.container-single img {
+  margin-bottom: 30px;
 }
 
-.container-single img{
-	margin-bottom: 30px;
+.container-single input[type="submit"] {
+  width: 160px;
+  height: 40px;
+  background-color: #fff;
+  font-weight: bold;
+  color: rgb(101, 99, 255);
+  border: 2px solid rgb(101, 99, 255);
+  transition-property: background-color;
+  transition-duration: 1s, 0.5s;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.container-single input[type=submit]{
-	width: 160px;
-	height: 40px;
-	background-color: #fff;
-	font-weight: bold;
-	color: rgb(101, 99, 255);
-	border: 2px solid rgb(101, 99, 255);
-	transition-property: background-color;
-	transition-duration: 1s, 0.5s;
-	border-radius: 20px;
-	cursor: pointer;
-
+.container-single input[type="submit"]:hover {
+  width: 160px;
+  height: 40px;
+  background-color: rgb(101, 99, 255);
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid rgb(101, 99, 255);
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.container-single input[type=submit]:hover{
-	width: 160px;
-	height: 40px;
-	background-color: rgb(101, 99, 255);
-	font-weight: bold;
-	color: #fff;
-	border: 2px solid rgb(101, 99, 255);
-	border-radius: 20px;
-	cursor: pointer;
+.button-p1,
+.button-p2,
+.button-p3 {
+  margin-top: 2vh;
 }
 
-.button-p1, .button-p2, .button-p3{
-	margin-top: 2vh;
+.footer {
+  /*clear:both;*/
+  background-color: rgb(17, 17, 17);
+  border-top: 2px solid #888888;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #696969;
 }
 
-
-.footer{
-	/*clear:both;*/
-	background-color: rgb(17, 17, 17);
-	border-top:2px solid #888888;
-	padding:20px 0;
-	text-align: center;
-	font-size: 13px;
-	color: #696969;
+.footer p {
+  margin-top: 8px;
 }
 
-.footer p{
-	margin-top:8px;
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: #a9a9a9;
 }
 
-.footer a{
-	display: inline-block;
-	text-decoration: none;
-	color: #A9A9A9;
+.footer a:hover {
+  color: #c0c0c0;
 }
 
-.footer a:hover{
-	color: #C0C0C0;
+@media screen and (max-width: 1024px) {
+  .container-single {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-left: 8%;
+    margin-top: 15px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .container-single {
+    float: none;
+    display: inline-block;
+    width: 50%;
+    max-width: 5600px;
+    padding: 30px 0;
+  }
 
-@media screen and (max-width: 1024px){
-	.container-single{
-		display: inline-block;
-		height: 200px;
-		width: 200px;
-		margin-left: 8%;
-		margin-top: 15px;
-	}
+  .bg-onda img {
+    width: 2000%;
+  }
 
-@media screen and (max-width: 768px){
-	.container-single{
-		float: none;
-		display: inline-block;
-		width: 50%;
-		max-width: 5600px;
-		padding:30px 0;
-	}
-
-	.bg-onda img{
-		width: 2000%;
-	}
-
-	.center-text .titulo h2{
-		font-size: 24px;
-		transform: translateY(-60px);
-	}
+  .center-text .titulo h2 {
+    font-size: 24px;
+    transform: translateY(-60px);
+  }
 }

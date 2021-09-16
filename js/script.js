@@ -1,6 +1,6 @@
 // Redirecionando o usuário
 
-function map() { window.location.href = "maps.php"; }	
+function map() { window.location.href = "maps.html"; }	
 function main() { window.location.href = "index.html"; }
-function qr() { window.location.href = "qrcode.php"; }
-function unisepe() { window.location.href = "http://portal.unisepe.com.br/unisepe/fvr/cpex/site/home/"; }
+function qr() { window.location.href = "/plantas/qrcode.html"; }
+function unisepe() { window.location.href = "https://portal.unisepe.com.br/univr/"; }

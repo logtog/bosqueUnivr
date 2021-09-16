@@ -59,6 +59,10 @@ body {
   font-weight: normal;
 }
 
+.bg-onda {
+  overflow: hidden;
+}
+
 .container-section {
   margin-top: 100px;
   text-align: center;
@@ -173,6 +177,7 @@ body {
 
   .bg-onda img {
     width: 2000%;
+    overflow: hidden;
   }
 
   .center-text .titulo h2 {

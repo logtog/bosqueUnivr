@@ -72,6 +72,7 @@ a:visited {
   padding: 5px 0;
   margin-left: 2rem;
   margin-right: 2rem;
+  overflow-x: hidden;
 }
 
 .image-description,
@@ -118,9 +119,10 @@ table {
   margin-right: 2rem;
   display: flex;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
-iframe {
+.map-gps {
   margin-bottom: 15px;
 }
 
@@ -204,7 +206,7 @@ td,
     margin-top: 15px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 776px) {
   .container-single {
     float: none;
     display: inline-block;
@@ -219,4 +221,101 @@ td,
   .container-single img {
     margin-left: 15px;
   }
+
+  .center {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 40px;
+    margin-top: 5px;
+  }
+
+  .origin-country img {
+    width: 300px;
+  }
+
+  .map-gps {
+    width: 300px;
+  }
+
+  .scientific-classification {
+    overflow-x: scroll;
+  }
+
+  table {
+    overflow-x: scroll;
+  }
+
+  
+}
+
+@media screen and (max-width: 500px) {
+  .origin-country img {
+    width: 180px;
+  }
+
+  .map-gps {
+    width: 150px;
+    height: 200px;
+  }
+
+  .main-image {
+    height: 9rem;
+    width: 9rem;
+    margin-top: 5%;
+  }
+
+  .scientific-classification {
+    overflow-x: scroll;
+  }
+
+  table {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .origin-country img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .origin-country img {
+    width: 100px;
+  }
+
+  .scientific-name {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+
+  .description {
+    padding: 4%;
+    margin-top: 4%;
+  }
+
+  .scientific-classification {
+    overflow-x: scroll;
+  }
+
+  table {
+    overflow-x: scroll;
+  }
+
+
 }

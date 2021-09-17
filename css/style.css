@@ -22,7 +22,6 @@ body {
 }
 
 .center {
-  max-width: 1280px;
   width: 100%;
   margin: 0 auto;
 }
@@ -30,11 +29,11 @@ body {
 .header {
   width: 100%;
   padding: 0 2%;
-  height: 8vh;
+  height: 7vh;
   background-color: #323665;
 }
 
-.header img {
+.center img {
   margin: 0px;
   cursor: pointer;
 }
@@ -46,7 +45,7 @@ body {
   animation: gradiente 8s ease infinite;
   width: 100%;
   padding: 0 2%;
-  height: 300px;
+  height: 7vh;
 }
 
 .container-banner > .center {
@@ -217,9 +216,6 @@ body {
   padding: 20px;
 }
 
-.container-single img {
-}
-
 .container-single input[type="submit"] {
   width: 160px;
   height: 40px;
@@ -242,9 +238,6 @@ body {
   border: 2px solid rgb(101, 99, 255);
   border-radius: 20px;
   cursor: pointer;
-}
-
-.container-single input[type="submit"]:hover .img1 {
 }
 
 .footer {
@@ -291,7 +284,6 @@ body {
 
   .container-list {
     width: 40%;
-    float: left;
     display: inline-block;
     max-width: 500px;
     height: auto;

@@ -250,7 +250,12 @@ th {
 
 @media screen and (max-width: 500px) {
   .origin-country img {
-    width: 180px;
+    width: 90% !important;
+    height: 38vw !important;
+  }
+
+  .description {
+    text-align: left;
   }
 
   .container {
@@ -258,8 +263,8 @@ th {
   }
 
   .map-gps {
-    width: 150px;
-    height: 200px;
+    width: 80%;
+    height: 40vw;
   }
 
   .main-image {

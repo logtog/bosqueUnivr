@@ -66,16 +66,6 @@ a:visited {
   margin-bottom: 2%;
 }
 
-.scientific-classification {
-  background-color: #00bfff;
-  border: 2px solid rgb(255, 255, 255);
-  margin-top: 3%;
-  padding: 5px 0;
-  overflow-x: hidden;
-  width: 900px;
-  margin: auto;
-}
-
 .image-description,
 .font-info {
   margin-top: 10px;
@@ -111,25 +101,28 @@ a:visited {
   width: 100%;
 }
 
-table {
-  padding: 5px 0;
-  width: max-content;
-  height: max-content;
-  margin: auto;
-  display: flex;
-  background-color: #fff;
-  overflow: hidden;
-}
-
 .map-gps {
   margin-top: 1%;
   margin-bottom: 20px;
 }
 
+table {
+  width: 60%;
+}
+
+table,
+th,
 td,
-.item {
-  width: 446.7px;
-  padding-left: 30px;
+th,
+tr {
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #00bfff !important;
 }
 
 .header {
@@ -252,10 +245,6 @@ td,
     width: 300px;
   }
 
-  .scientific-classification {
-    overflow-x: scroll;
-  }
-
   table {
     overflow-x: scroll;
   }
@@ -275,10 +264,6 @@ td,
     height: 9rem;
     width: 9rem;
     margin-top: 5%;
-  }
-
-  .scientific-classification {
-    overflow-x: scroll;
   }
 
   table {
@@ -305,10 +290,6 @@ td,
   .description {
     padding: 4%;
     margin-top: 4%;
-  }
-
-  .scientific-classification {
-    overflow-x: scroll;
   }
 
   table {

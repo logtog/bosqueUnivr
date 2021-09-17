@@ -56,13 +56,14 @@ a:visited {
 
 .title {
   margin-top: 2%;
-  margin-bottom: 1%;
+  margin-bottom: 0.5%;
   color: rgb(255, 255, 255);
 }
 
 .scientific-name {
   color: rgb(156, 156, 156);
   font-size: 14px;
+  margin-bottom: 2%;
 }
 
 .scientific-classification {
@@ -70,9 +71,9 @@ a:visited {
   border: 2px solid rgb(255, 255, 255);
   margin-top: 3%;
   padding: 5px 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
   overflow-x: hidden;
+  width: 900px;
+  margin: auto;
 }
 
 .image-description,
@@ -91,7 +92,7 @@ a:visited {
 
 .origin-country img {
   border-radius: 5px;
-  margin-top: 1%;
+  margin-top: 2%;
   width: 500px;
 }
 
@@ -111,24 +112,23 @@ a:visited {
 }
 
 table {
-  border: 2px solid rgb(255, 255, 255);
   padding: 5px 0;
-  width: auto;
-  height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  width: max-content;
+  height: max-content;
+  margin: auto;
   display: flex;
   background-color: #fff;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .map-gps {
-  margin-bottom: 15px;
+  margin-top: 1%;
+  margin-bottom: 30px;
 }
 
 td,
 .item {
-  width: 700px;
+  width: 446.7px;
   padding-left: 30px;
 }
 
@@ -226,7 +226,7 @@ td,
     display: flex;
     justify-content: space-between;
   }
-  
+
   .one,
   .two,
   .three {
@@ -259,8 +259,6 @@ td,
   table {
     overflow-x: scroll;
   }
-
-  
 }
 
 @media screen and (max-width: 500px) {
@@ -316,6 +314,4 @@ td,
   table {
     overflow-x: scroll;
   }
-
-
 }

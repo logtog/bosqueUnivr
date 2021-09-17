@@ -99,6 +99,7 @@ body {
 }
 
 .container-single img {
+  border-radius: 15px;
   margin-bottom: 30px;
 }
 

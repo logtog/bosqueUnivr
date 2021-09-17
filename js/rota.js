@@ -1,6 +1,6 @@
 //Redireciomento de páginas:
-			function map() { window.location.href = "maps.php"; }	
-      function main() { window.location.href = "index.html"; }
+			function map() { window.location.href = "/bosque-registro/maps.html"; }	
+      function main() { window.location.href = "/bosque-registro/index.html"; }
 
 			if ('geolocation' in navigator) {
 				navigator.geolocation.getCurrentPosition(function(position){

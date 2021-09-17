@@ -250,12 +250,16 @@ th {
 
 @media screen and (max-width: 500px) {
   .origin-country img {
-    width: 90% !important;
+    width: 100% !important;
     height: 38vw !important;
   }
 
   .description {
-    text-align: left;
+    text-align: justify;
+  }
+  .image-description,
+  .font-info {
+    font-size: 10px;
   }
 
   .container {
@@ -271,32 +275,6 @@ th {
     height: 9rem;
     width: 9rem;
     margin-top: 5%;
-  }
-
-  table {
-    overflow-x: scroll;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .origin-country img {
-    width: 150px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .origin-country img {
-    width: 100px;
-  }
-
-  .scientific-name {
-    padding-right: 2%;
-    padding-left: 2%;
-  }
-
-  .description {
-    padding: 4%;
-    margin-top: 4%;
   }
 
   table {

@@ -17,11 +17,10 @@ body {
 
 main {
   margin-top: 4%;
-  margin-bottom: 27%;
+  margin-bottom: 4%;
   display: flex;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 a:link {
@@ -39,19 +38,22 @@ a:visited {
   width: 55%;
   border-radius: 10px;
   background: linear-gradient(rgba(0, 0, 0, 70%), rgba(0, 0, 0, 70%) 100%);
-  box-shadow: 1 5 4;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.336);
 
   display: block;
   flex-direction: column;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.336);
 }
 
 .origin-country img {
+  width: 70% !important;
+  height: 100% !important ;
+  margin: auto !important;
   margin-top: 20px !important;
-  box-shadow: 0 0 0;
+  border-radius: 5px;
+  margin-top: 1%;
 }
 
 .title {
@@ -80,12 +82,6 @@ a:visited {
   margin-top: 2%;
 }
 
-.origin-country img {
-  border-radius: 5px;
-  margin-top: 1%;
-  width: 500px;
-}
-
 .description {
   color: rgb(219, 219, 219);
   text-align: justify;
@@ -104,6 +100,10 @@ a:visited {
 .map-gps {
   margin-top: 1%;
   margin-bottom: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 table {
@@ -238,10 +238,6 @@ th {
   }
 
   .origin-country img {
-    width: 300px;
-  }
-
-  .map-gps {
     width: 300px;
   }
 

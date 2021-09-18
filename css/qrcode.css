@@ -58,6 +58,7 @@ nav {
 
 .bg-onda {
   overflow: hidden;
+  transform: translateY(-1px);
 }
 
 .container-section {
@@ -169,6 +170,7 @@ nav {
     height: 50vw;
     max-width: 5600px;
     padding: 30px 0;
+    border-radius: 5%;
   }
 
   .text-container-single {
@@ -177,11 +179,11 @@ nav {
 
   .container-single img {
     border-radius: 50%;
-    margin-bottom: 0;
+    margin-bottom: 1vw;
   }
 
   .bg-onda img {
-    width: 850%;
+    width: 1500%;
     overflow: hidden;
   }
 

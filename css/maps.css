@@ -139,6 +139,11 @@ body {
   border-bottom: 3px solid #323665;
 }
 
+.container-section {
+  display: flex;
+  align-items: stretch;
+}
+
 .container-2 h2 {
   font-weight: normal;
   color: #000;
@@ -316,9 +321,8 @@ body {
   }
 
   .container-single {
-    float: none;
-    display: inline-block;
-    width: 90%;
+    float: left;
+    width: 30% !important;
     max-width: 5600px;
     padding: 30px 0;
   }

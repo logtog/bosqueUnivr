@@ -9,9 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vw;
-  background: linear-gradient(72deg, #00bfff 1%, #003366 99%);
+  width: 100%;
   background-color: #fff;
 }
 
@@ -84,6 +82,7 @@ a:visited {
 }
 
 .main-image {
+  border: 2px solid black;
   height: 17% !important;
   width: 17%;
   border-radius: 5px;
@@ -365,4 +364,76 @@ th {
   table {
     overflow-x: scroll;
   }
+}
+.content {
+  height: 16vw;
+  width: 16vw;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 70px;
+  height: 17px;
+  border: 2px solid #fff;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover {
+  background-color: #fff;
+}
+
+input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
 }

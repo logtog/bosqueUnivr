@@ -1,6 +1,9 @@
 //Redireciomento de páginas:
 			function map() { window.location.href = "/bosque-registro/maps.html"; }	
       function main() { window.location.href = "../index.html"; }
+      function g1() { window.location.href = "https://g1.globo.com/sp/santos-regiao/noticia/2019/11/22/bosque-municipal-torazo-okamoto-e-reinaugurado-em-registro-sp.ghtml"; }
+function jn() { window.location.href = "https://www.jnippak.com.br/2021/cultura-japonesa-vol-8-torazo-okamoto-cha-no-imperio-do-cafe/"; }
+function youtube() { window.location.href = "https://www.youtube.com/watch?v=6KpwyBJFA8c&t=174s"; }
 
 			if ('geolocation' in navigator) {
 				navigator.geolocation.getCurrentPosition(function(position){

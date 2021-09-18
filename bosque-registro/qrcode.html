@@ -3,18 +3,14 @@
   <head>
     <title>Projeto HAR</title>
     <link
-      href="/css/qrcode.css"
+      href="../css/qrcode.css"
       type="text/css"
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
     />
-    <script type="text/javascript" src="/js/qrcode.js"></script>
+    <script type="text/javascript" src="../js/qrcode.js"></script>
     <link
-      href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <meta charset="utf-8" />
@@ -28,19 +24,36 @@
 
   <body>
     <div class="header">
-      <div class="center">
-        <img
-          src="/images/UNIVR.png"
-          width="145px"
-          height="50px"
-          onclick="main()"
-        />
+      <div class="menu-section">
+        <div id="logo"> </div>
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a onclick="home()">Inicio</a>
+            </li>
+            <li>
+              <a onclick="forest()">Plantas</a>
+            </li>
+            <li>
+              <a onclick="informations()">Sobre</a>
+            </li>
+            <li>
+              <a onclick="unvr()">Site UNIVR</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       </div>
     </div>
     <div class="bg-onda">
       <img
         class="onda1"
-        src="/images/svg/ondas.svg"
+        src="../images/svg/ondas.svg"
         height="100px"
         width="200%"
       />
@@ -58,7 +71,7 @@
           <div class="container-single" onclick="especie(1)">
             <div>
               <img
-                src="/images/arvoreViajante.png"
+                src="../images/arvoreViajante.png"
                 width="100px"
                 height="100px"
               />
@@ -70,7 +83,7 @@
 
           <div class="container-single" onclick="especie(2)">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 2</h2>
@@ -79,7 +92,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 3</h2>
@@ -88,7 +101,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 4</h2>
@@ -99,7 +112,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 5</h2>
@@ -110,7 +123,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 6</h2>
@@ -121,7 +134,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 7</h2>
@@ -132,7 +145,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 8</h2>
@@ -143,7 +156,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 9</h2>
@@ -154,7 +167,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 10</h2>
@@ -165,7 +178,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 11</h2>
@@ -176,7 +189,7 @@
 
           <div class="container-single">
             <div>
-              <img src="/images/svg/capture.svg" width="80px" height="80px" />
+              <img src="../images/svg/capture.svg" width="80px" height="80px" />
             </div>
             <div class="text-container-single">
               <h2>Espécie 12</h2>
@@ -199,6 +212,15 @@
         Registro - São Paulo</a
       >
     </div>
-    <!--footer-->
+    <script src="/js/menu.js"></script>
   </body>
+
+  <script>
+  if (window.screen.availWidth <= 768) {
+    document.getElementById("logo").innerHTML="<img src=\"../images/svg/arrow-left.svg\" width=\"50px\" height=\"50px\" onclick=\"main()\">";
+  }
+  else {
+    document.getElementById("logo").innerHTML="<img src=\"../images/UNIVR.png\" width=\"145px\" height=\"50px\" onclick=\"main()\">";
+}
+</script>
 </html>

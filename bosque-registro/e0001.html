@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Projeto HAR</title>
+    <meta name="viewport" content="width-device-width,initial-scale=1" />
+
     <link
       href="/css/especie.css"
       type="text/css"
@@ -26,7 +28,7 @@
 
   <body>
     <div class="header">
-      <div class="center">
+      <div class="menu-section">
         <img
           src="/images/svg/arrow-left.svg"
           width="50px"
@@ -38,13 +40,62 @@
           <div class="two"></div>
           <div class="three"></div>
         </div>
+        <nav>
+          <ul>
+            <li>
+              <a onclick="home()">Inicio</a>
+            </li>
+            <li>
+              <a onclick="forest()">Plantas</a>
+            </li>
+            <li>
+              <a onclick="informations()">Sobre</a>
+            </li>
+            <li>
+              <a onclick="univr()">Site UNIVR</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
 
     <!----------------------------------SECTION DAS ESPÉCIES-------------------------->
     <main>
+      <div class="contents">
+        <div class="slides">
+          <input type="radio" name="slide" id="slide1" />
+          <input type="radio" name="slide" id="slide2" />
+          <input type="radio" name="slide" id="slide3" />
+          <input type="radio" name="slide" id="slide4" />
+          <input type="radio" name="slide" id="slide5" />
+
+          <div class="slide s1">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="navigation">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+            <label for="slide5"></label>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
-        <img src="/images/arvoreViajante.png" alt="" class="main-image" />
+        <img src="../images/arvoreViajante.png" alt="" class="main-image" />
         <h3 class="title">Árvore do viajante</h3>
         <h2 class="scientific-name">Ravenala madagascariensis (Sonn)</h2>
 
@@ -95,6 +146,7 @@
             ilha Maurícia, bem como no Hawaii, onde foi importada como planta
             ornamental, para depois difundir-se como espécie espontânea.
           </p>
+
           <div class="origin-country">
             <img src="/images/mapaArvoreViajante.png" alt="" srcset="" />
             <h2 class="image-description">
@@ -104,13 +156,14 @@
             <h2 class="font-info">
               <b>Fonte:</b>
               <a
-                href="https://pt.wikipedia.org/wiki/Plano_Madag%C3%A1scar"
+                href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
                 target="_blank"
                 >Wikipedia</a
               >
             </h2>
           </div>
         </div>
+        <!--
         <h3 class="title">Localização no Bosque:</h3>
         <iframe
           class="map-gps"
@@ -120,6 +173,7 @@
           allowfullscreen=""
           loading="lazy"
         ></iframe>
+        -->
       </div>
     </main>
     <!----------------------------------FOOTER---------------------------------------->
@@ -130,6 +184,6 @@
         Registro - São Paulo</a
       >
     </div>
-    <!--footer-->
+    <script src="/js/menu.js"></script>
   </body>
 </html>

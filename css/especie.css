@@ -73,7 +73,7 @@ a:visited {
 }
 
 .scientific-name {
-  color: rgb(153, 138, 138);
+  color: rgb(149, 149, 149);
   font-size: 14px;
   margin-bottom: 2%;
 }
@@ -87,8 +87,8 @@ a:visited {
 
 .main-image {
   border: 2px solid black;
-  height: 17% !important;
-  width: 17%;
+  height: 17vw !important;
+  width: 17vw;
   border-radius: 5px;
   margin: auto;
   margin-top: 2%;
@@ -432,8 +432,8 @@ input {
   }
 
   .main-image {
-    height: 9rem;
-    width: 9rem;
+    height: 150px !important;
+    width: 150px;
     margin-top: 5%;
   }
 }

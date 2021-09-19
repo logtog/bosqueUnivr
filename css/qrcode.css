@@ -62,7 +62,8 @@ nav {
 }
 
 .container-section {
-  margin-top: 100px;
+  overflow: hidden;
+  margin-top: 79px;
   text-align: center;
 }
 
@@ -157,10 +158,17 @@ nav {
 @media screen and (max-width: 1024px) {
   .container-single {
     display: inline-block;
-    height: 200px;
     width: 200px;
     margin-left: 8%;
     margin-top: 15px;
+  }
+
+  .container-section {
+    margin-top: 25vw;
+  }
+
+  .text-container-single {
+    margin-top: auto;
   }
 }
 
@@ -168,7 +176,6 @@ nav {
   .container-single {
     float: left;
     width: 35%;
-    height: 50vw;
     max-width: 5600px;
     padding: 30px 0;
     border-radius: 5%;
@@ -289,5 +296,27 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container-single {
+    height: 62vw;
+  }
+  #logo img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .text-container-single h2 {
+    font-size: 17px;
+  }
+
+  .container-section {
+    margin-top: 1vw;
+  }
+  div img {
+    height: 27vw;
+    width: 27vw;
   }
 }

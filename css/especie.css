@@ -36,7 +36,9 @@ a:link {
 a:visited {
   color: #00bfff;
 }
-
+.map-size {
+  width: 25vw !important;
+}
 .container,
 .origin-country img {
   text-align: center;
@@ -58,8 +60,8 @@ a:visited {
 }
 
 .origin-country img {
-  width: 59% !important;
-  height: 63% !important ;
+  width: 59%;
+  height: 63%;
   margin: auto !important;
   margin-top: 20px !important;
   border-radius: 10px;
@@ -356,6 +358,10 @@ input {
     top: 15px;
   }
 
+  .map-size {
+    width: 73% !important;
+    height: 76vw !important;
+  }
   .menu-section.on .menu-toggle .one {
     transform: rotate(45deg) translate(7px, 7px);
   }
@@ -409,8 +415,8 @@ input {
 
 @media screen and (max-width: 500px) {
   .origin-country img {
-    width: 100% !important;
-    height: 38vw !important;
+    width: 100%;
+    height: 38vw;
   }
 
   .description {
@@ -429,6 +435,11 @@ input {
   .map-gps {
     width: 80%;
     height: 40vw;
+  }
+
+  .map-size {
+    width: 73% !important;
+    height: 76vw !important;
   }
 
   .main-image {

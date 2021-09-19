@@ -22,7 +22,6 @@ body {
 }
 
 .googlemap {
-  text-align: center;
   width: 100%;
 }
 
@@ -39,12 +38,13 @@ body {
 .center {
   width: 100%;
   margin: 0 auto;
+  height: auto;
 }
 
 .header {
   width: 100%;
   padding: 0 2%;
-  height: 8vh;
+  height: auto;
   background-color: #323665;
 }
 
@@ -139,11 +139,6 @@ body {
   border-bottom: 3px solid #323665;
 }
 
-.container-section {
-  display: flex;
-  align-items: stretch;
-}
-
 .container-2 h2 {
   font-weight: normal;
   color: #000;
@@ -169,7 +164,7 @@ body {
   height: 40px;
   background-image: url("../images/next.png");
   background-size: 100% 100%;
-  filter: brightness(600%);
+  filter: brightness(1000%);
 }
 
 .section-1 {
@@ -193,6 +188,7 @@ body {
 }
 
 .container-single {
+  height: max-content;
   margin-top: 15px;
   margin-right: 15px;
   float: left;
@@ -209,6 +205,10 @@ body {
   display: inline-block;
   text-align: justify;
   padding: 20px;
+}
+
+.resize1 {
+  margin-bottom: calc(5.3% - 0.2px) !important;
 }
 
 .container-single img {
@@ -321,8 +321,9 @@ body {
   }
 
   .container-single {
-    float: left;
-    width: 30% !important;
+    float: none;
+    display: inline-block;
+    width: 90%;
     max-width: 5600px;
     padding: 30px 0;
   }

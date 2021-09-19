@@ -45,7 +45,7 @@ body {
   animation: gradiente 8s ease infinite;
   width: 100%;
   padding: 0 2%;
-  height: 7vh;
+  height: auto;
 }
 
 .container-banner > .center {

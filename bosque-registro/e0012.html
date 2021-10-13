@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UNIVR Bosque</title>
+    <meta name="viewport" content="width-device-width,initial-scale=1" />
+
+    <link
+      href="../css/especie.css"
+      type="text/css"
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css"
+    />
+    <script type="text/javascript" src="/js/qrcode.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0"
+    />
+    </style>
+  </head>
+
+  <!----------------------------------HEADER---------------------------------------->
+
+  <body>
+    <div class="header">
+      <div class="menu-section">
+        <img
+          src="../images/svg/arrow-left.svg"
+          width="50px"
+          height="50px"
+          onclick="qr()"
+        />
+        <div class="menu-toggle">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a onclick="home()">Início</a>
+            </li>
+            <li>
+              <a onclick="forest()">Plantas</a>
+            </li>
+            <li>
+              <a onclick="informations()">Sobre</a>
+            </li>
+            <li>
+              <a onclick="univr()">Site UNIVR</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!----------------------------------SECTION DAS ESPÉCIES-------------------------->
+    <main>
+      <!--
+      <div class="content">
+        <div class="slides">
+          <input type="radio" name="slide" id="slide1" />
+          <input type="radio" name="slide" id="slide2" />
+          <input type="radio" name="slide" id="slide3" />
+          <input type="radio" name="slide" id="slide4" />
+          <input type="radio" name="slide" id="slide5" />
+
+          <div class="slide s1">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/jucara.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="slide">
+            <img src="../images/arvoreViajante.png" alt="arvore do viajante" />
+          </div>
+          <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+          </div>
+        </div>
+      </div>
+    -->
+      <div class="container">
+        <img src="../images/figueira.png" alt="" class="main-image" />
+        <h3 class="title">Figueira</h3>
+        <h2 class="scientific-name">nomecientifico</h2>
+
+        <table>
+          <tr>
+            <th colspan="2">Classificação Científica</th>
+          </tr>
+          <tr>
+            <td>Reino:</td>
+            <td>Plantae</td>
+          </tr>
+          <tr>
+            <td>Divisão:</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Classe:</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Ordem:</td>
+            <td>Rosales</td>
+          </tr>
+          <tr>
+            <td>Família:</td>
+            <td>Moraceae</td>
+          </tr>
+          <tr>
+            <td>Gênero:</td>
+            <td>Ficus</td>
+          </tr>
+          <tr>
+            <td>Espécie:</td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="description">
+          <p>
+            <b>CARACTERÍSTICAS:</b>
+            As figueiras são normalmente árvores, embora algumas espécies não cresçam muito e permaneçam como arbustos. 
+            <br><br>Outras são trepadeiras, como o Ficus pumila, havendo ainda espécies rasteiras. Em todos os casos são plantas lenhosas, muitas com caule de forma irregular ou escultural, com raizes adventícias e superficiais. 
+            <br><br>As folhas são alternas, usualmente providas de látex. Nas extremidades dos galhos ocorrem estípulas. 
+            <br>As flores são diminutas, unissexuais, reunidas em inflorescências especiais denominadas sicónios, que consistem em um receptáculo fechado, com as flores inseridas no lado de dentro, e um orifício de saída no ápice, ou ostíolo. 
+            <br>Não identificamos apenas gênero não epiteto especifico, uma vez que existem diversas espécies pelo globo e sua identificação quando se encontram por ocorrência natural não estando em estágio reprodutivo apresenta grande incerteza.  
+
+          </p>
+          <br />
+          <p>
+            <b>DISTRIBUIÇÃO:</b> As figueiras ocorrem em todos os continentes, com exceção da Antártica.
+          </p>
+
+          <div class="origin-country">
+            <img
+              src="../images/mapaFigueira.png"
+              alt="Mapa Mundi"
+              srcset=""
+            />
+            <h2 class="image-description">
+              <b>Figura 1.</b> Figura. Sudoeste da China possível Centro de
+              Origem da espécie. 
+
+            </h2>
+            <h2 class="font-info">
+              <b>Fonte:</b>
+              <a
+                href="https://pt.wikipedia.org/wiki/Lista_de_regi%C3%B5es_da_China#/media/Ficheiro:Regionen_in_China.svg"
+                target="_blank"
+                >Wikipedia</a
+              >
+            </h2>
+          </div>
+        </div>
+        <!--
+        <h3 class="title">Localização no Bosque:</h3>
+        <iframe
+          class="map-gps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1321.1219670663857!2d-47.84344269501165!3d-24.508987626168885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5337d0c91931d%3A0xee64c852c3e1ce20!2sBosque%20Municipal%20Torazo%20Okamoto!5e0!3m2!1spt-BR!2sbr!4v1631756044885!5m2!1spt-BR!2sbr"
+          style="border: 0"
+          height="270vw"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        -->
+      </div>
+    </main>
+    <!----------------------------------FOOTER---------------------------------------->
+
+    <div class="footer">
+      <a href="https://www.google.com.br/maps/place/R.+Osc%C3%A1r+Yoshiaki+Margario,+185+-+Jardim+das+Palmeiras,+Registro+-+SP,+11900-000/@-24.5229685,-47.8454201,17z/data=!3m1!4b1!4m5!3m4!1s0x94c5335f799f3df1:0xfa5bcf90a89b9c67!8m2!3d-24.5229685!4d-47.8432314">
+        Bairro: Jardim das Palmeiras Rua: Oscar Yoshiaki Magário, nº 185.
+        Registro - São Paulo</a
+      >
+    </div>
+    <script src="../js/menu.js"></script>
+  </body>
+</html>
